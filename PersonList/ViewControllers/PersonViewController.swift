@@ -24,10 +24,8 @@ class PersonViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "person", for: indexPath)
         let person = personInfo[indexPath.row]
-        cell.textLabel?.text = person.name
-        cell.detailTextLabel?.text = person.surName
-        
-
+        cell.textLabel?.text = person.personInfo
+        cell.textLabel?.numberOfLines = 0
         
         return cell
     }

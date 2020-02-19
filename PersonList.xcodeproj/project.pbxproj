@@ -15,6 +15,7 @@
 		ED4EE9B323FDB310006C80A3 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4EE9B223FDB310006C80A3 /* PersonViewController.swift */; };
 		ED4EE9B523FDB82C006C80A3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4EE9B423FDB82C006C80A3 /* Person.swift */; };
 		ED4EE9B923FDC27F006C80A3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4EE9B823FDC27F006C80A3 /* DetailViewController.swift */; };
+		ED4EE9BB23FDD20E006C80A3 /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4EE9BA23FDD20E006C80A3 /* SectionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ED4EE9B223FDB310006C80A3 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		ED4EE9B423FDB82C006C80A3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		ED4EE9B823FDC27F006C80A3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED4EE9BA23FDD20E006C80A3 /* SectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				ED4EE9B223FDB310006C80A3 /* PersonViewController.swift */,
 				ED4EE9B823FDC27F006C80A3 /* DetailViewController.swift */,
+				ED4EE9BA23FDD20E006C80A3 /* SectionsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				ED4EE9B523FDB82C006C80A3 /* Person.swift in Sources */,
 				ED4EE9B923FDC27F006C80A3 /* DetailViewController.swift in Sources */,
 				ED4EE9B323FDB310006C80A3 /* PersonViewController.swift in Sources */,
+				ED4EE9BB23FDD20E006C80A3 /* SectionsViewController.swift in Sources */,
 				ED4EE99D23FDB0AE006C80A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
